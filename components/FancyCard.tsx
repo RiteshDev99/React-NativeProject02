@@ -59,12 +59,15 @@ const Styles = StyleSheet.create({
         fontSize: 22,
         fontWeight: 'bold',
         marginBottom: 6,
+        color:'#2C3335',
     },
     cardLabel: {
         fontWeight:'semibold',
         fontSize: 20,
         marginBottom: 6,
-        marginTop:8,
+        marginTop: 8,
+        color: '#2C3335',
+
 
     },
     description: {
@@ -75,7 +78,8 @@ const Styles = StyleSheet.create({
         paddingHorizontal:8,
     },
     cardFooter: {
-        marginTop:9,
+        marginTop: 9,
+        color:'black',
     },
 });
 export default FancyCard;
